@@ -9,8 +9,8 @@ function mostrarDadosAluno(nome, nota1, nota2) {
 
 let alunos = [
     { nome: "João da Silva", nota1: 7, nota2: 8.5 },
-    { nome: "Maria Oliveira", nota1: 6, nota2: 9 },
-    { nome: "Carlos Pereira", nota1: 8, nota2: 7.5 }
+    { nome: "Gabriele Oliveira", nota1: 9, nota2: 6.5 },
+    { nome: "Maria Morais", nota1: 8, nota2: 5.5 }
 ];
 
 alunos.forEach(aluno => {
