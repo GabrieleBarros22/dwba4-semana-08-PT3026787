@@ -28,7 +28,5 @@ let alunos = [
 ];
 
 alunos.forEach(aluno => {
-    console.log(`Nome Completo: ${aluno.nomeCompleto()}`);
-    console.log(`Média: ${aluno.media()}`);
-    console.log(`Situação: ${aluno.situacao()}`);
+    alert(`Nome Completo: ${aluno.nomeCompleto()}\nMédia: ${aluno.media()}\nSituação: ${aluno.situacao()}`);
 });
